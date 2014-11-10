@@ -1,0 +1,46 @@
+# Default Server List for podget
+# 
+# FORMAT:    <url> <category> <name>
+# 
+# NOTES:
+#    1. URL Rules:
+#      A. Any spaces in the URL needs to be converted to %20 
+#    2. Category Rules:
+#      A.  Must be one word without spaces. 
+#      B.  You may use underscores and dashes.
+#      C.  You can insert date substitions.
+#          %YY%  ==  Year
+#          %MM%  ==  Month
+#          %DD%  ==  Day
+#    3. Name Rules:
+#      A.  If you are creating ASX playlists, make sure the feed name does not
+#          have any spaces in it and the filename cannot be blank.
+#      B.  You can leave the feed name blank, and files will be saved in the 
+#          category directory.
+#    4. Disable the downloading of any feed by commenting it out with a #.
+# 
+# Examples: 
+# http://www.lugradio.org/episodes.rss Linux LUG Radio
+#
+# Example with date substitution in the category and a blank feed name:
+# http://downloads.bbc.co.uk/rmhttp/downloadtrial/worldservice/summary/rss.xml News-%YY%-%MM%-%DD%
+#
+http://feedpress.me/t3ogg News Tech Talk Today
+
+http://feeds.feedburner.com/linuxoutlaws-ogg Linux Linux Outlaws
+http://feeds2.feedburner.com/TheLinuxActionShowOGG Linux Linux Action Show
+http://feeds.feedburner.com/linuxunogg Linux Linux Unplugged
+
+http://feeds.feedburner.com/se-radio Programming Software Engineering Radio
+http://www.jupiterbroadcasting.com/feeds/coderradioogg.xml Programming Coder Radio
+http://feeds.feedburner.com/javaposse Programming Java Posse
+http://feeds.feedburner.com/HanselminutesCompleteMP3 Programming HanselMinutes
+http://feeds.feedburner.com/herdingcode Programming Herding Code
+
+http://www.jupiterbroadcasting.com/feeds/unfilterogg.xml Politics JB Unfilter
+http://honeybadgerradio.libsyn.com/rss Politics Honey Badger Radio
+http://ricochet.com/series/ricochet-podcast/feed/ Politics The Ricochet Podcast
+http://feeds.serialpodcast.org/serialpodcast Politics Serial
+
+http://converttoraid.libsyn.com/rss Gaming Convert to Raid
+http://www.taurenthinktank.com/feed.xml Gaming Tauren Think Tank
