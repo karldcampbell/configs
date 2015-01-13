@@ -25,7 +25,10 @@
 # Example with date substitution in the category and a blank feed name:
 # http://downloads.bbc.co.uk/rmhttp/downloadtrial/worldservice/summary/rss.xml News-%YY%-%MM%-%DD%
 #
+
 http://feedpress.me/t3ogg News Tech Talk Today
+
+http://omegataupodcast.net/englishOnly.php Tech Omega Tau
 
 http://feeds.feedburner.com/linuxoutlaws-ogg Linux Linux Outlaws
 http://feeds2.feedburner.com/TheLinuxActionShowOGG Linux Linux Action Show
@@ -41,7 +44,9 @@ http://www.jupiterbroadcasting.com/feeds/unfilterogg.xml Politics JB Unfilter
 http://honeybadgerradio.libsyn.com/rss Politics Honey Badger Radio
 http://ricochet.com/series/ricochet-podcast/feed/ Politics The Ricochet Podcast
 http://ricochet.com/series/law-talk/feed/ Politics Law Talk
-http://feeds.serialpodcast.org/serialpodcast Politics Serial
+#http://feeds.serialpodcast.org/serialpodcast Politics Serial
+
+http://feeds.feedblitz.com/getupandcode Fitness Get up and Code
 
 http://converttoraid.libsyn.com/rss Gaming Convert to Raid
 http://www.taurenthinktank.com/feed.xml Gaming Tauren Think Tank
