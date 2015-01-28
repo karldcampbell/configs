@@ -31,7 +31,7 @@ wget_baseopts=-c -nH --no-check-certificate
 # Most Recent
 # 0  == download all new items.
 # 1+ == download only the <count> most recent
-most_recent=10
+most_recent=5
 
 # Force
 # 0 == Only download new material.
